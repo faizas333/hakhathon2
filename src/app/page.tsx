@@ -1,19 +1,30 @@
 import React from 'react'
-import Link from 'next/link'
 import { Navbar } from './component/Navbar'
 import Footer from './component/Footer'
+import Link from 'next/link'
 
-export default function page()  {
+const page = () => {
   return (
-    
     <div>
-  <Navbar />
-  <div className='flex gap-4 justify-center align-center text-bold bg-slate-50'>
-  <Link href="/shop">Shop</Link>
-  <Link href="/cart">Cart</Link>
-  <Link href="/product">Product</Link>
-  </div>
-  <Footer />
-  </div>
- )
+    <Navbar />
+  <div className='flex bg-white gap-3 text-xl text-slate-400 justify-center item-center'>
+  
+      <Link href="/homepage">H0ME </Link>
+      <Link href="/product">PRODUCT </Link>
+      <Link href="/catagory">CATEGORY </Link>
+      <Link href="/cart">CART </Link>
+      </div>
+
+      
+
+      
+
+
+
+
+    <Footer />
+    </div>
+  )
 }
+
+export default page
