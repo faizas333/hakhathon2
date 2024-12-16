@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export const cart = () => {
+export const Cart = () => {
   return (
     <div> 
         <Link href="/">Home</Link>
@@ -9,4 +9,4 @@ export const cart = () => {
     </div>
   )
 }
-export default cart
+export default Cart

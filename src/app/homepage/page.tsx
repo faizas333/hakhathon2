@@ -14,15 +14,16 @@ const Homepage = () =>{
           <Image
             src="/girl.png"
             alt="Banner"
-            className="w-full max-h-96 object-cover rounded-lg"
-          />
+            width={500}
+            height={600}
+            className="w-full object-cover rounded-lg"/>
           <h1 className="text-4xl font-bold mt-6">Find Clothes That Match Your Style</h1>
           <p className="text-gray-600 mt-4">Discover 200+ brands and 30,000+ items.</p>
         </section>
 
-        {/* Featured Products */}
+{/* Featured Products */}
         <section>
-          <h2 className="text-2xl font-bold mb-6">Featured Products</h2>
+          <h2 className="text-2xl font-bold mb-6 text-center">Featured Products</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           </div>
         </section>
